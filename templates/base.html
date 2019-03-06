@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{mysite}}</title>
+</head>
+<body>
+    <h1>{{mysite}}</h1>
+    <p>Django Test</p>
+    {% block mainbody %}
+        <p>original</p>
+    {% endblock %}
+
+    {% block test1 %}
+        <p>original</p>
+    {% endblock %}
+
+</body>
+</html>
